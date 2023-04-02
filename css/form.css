@@ -1,0 +1,24 @@
+.form {
+  margin-top: 3%;
+  border: 2px solid #bbb;
+}
+
+.form__input,
+.form__option {
+  border: 2px solid #bbb;
+  padding: 1%;
+}
+
+.form__submitButton,
+.form__resetButton {
+  background-color: #fff;
+  border: 2px solid #bbb;
+  padding: 1%;
+}
+
+.form__submitButton:hover,
+.form__resetButton:hover {
+  background-color: #bbb;
+  border: 2px solid #fff;
+  cursor: pointer;
+}

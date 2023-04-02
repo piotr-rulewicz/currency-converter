@@ -1,0 +1,16 @@
+.currencyConverter {
+  max-width: 1024px;
+  margin: 3% auto;
+  padding: 1%;
+  background-color: #ddd;
+  border: 2px solid #bbb;
+  box-shadow: 10px 10px 5px #ddd;
+  text-align: center;
+}
+
+.currencyConverter__list {
+  list-style: none;
+  margin-top: 3%;
+  padding: 1%;
+  border: 2px solid #bbb;
+}

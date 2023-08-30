@@ -1,22 +1,39 @@
-let currencyConverterForm = document.querySelector(".form");
-let enteredValue = document.querySelector(".js-enteredValue");
-let selectedCurrency = document.querySelector(".js-selectedCurrency");
-let plnToPay = document.querySelector(".js-currencyConverter__value");
-let resetButton = document.querySelector(".js-resetButton");
+{
+  
+const plnToPay = document.querySelector(".js-currencyConverter__value");
 
-currencyConverterForm.addEventListener("submit", (event) => {
+  const calculateResult = () => {
+
+  const currencyConverterForm = document.querySelector(".form");
+  const enteredValue = document.querySelector(".js-enteredValue");
+  const selectedCurrency = document.querySelector(".js-selectedCurrency");
+  
+  currencyConverterForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  let value = enteredValue.value;
-  let currency = selectedCurrency.value;
-
-  let toPay = value * currency;
+  const value = enteredValue.value;
+  const currency = selectedCurrency.value;
+  const toPay = value * currency;
 
   plnToPay.innerText = toPay.toFixed(2);
 
 });
 
-resetButton.addEventListener("click", () => {
+}
+
+calculateResult();
+
+  const init = () => {
+
+  const resetButton = document.querySelector(".js-resetButton");
+
+  resetButton.addEventListener("click", () => {
   plnToPay.innerText = ("0.00");
 
 });
+
+}
+
+init();
+
+}

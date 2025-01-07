@@ -28,21 +28,21 @@
       Kalkulator walut
     </h1>
     <ul class="currencyConverter__list">
-      <li><b>W dniu dzisiejszym sprzedaż walut wg poniższych kursów:</b></li>
-      <li>EUR: 4.68 PLN</li>
-      <li>CHF: 4.77 PLN</li>
-      <li>USD: 4.40 PLN</li>
-      <li>JPY: 0.03 PLN</li>
+      <li class="currencyConverter__list--item"><span class="currencyConverter__list--biggerSizeFont">Kurs</span></li>
+      <li class="currencyConverter__list--item">EUR 4.68 PLN</li>
+      <li class="currencyConverter__list--item">CHF 4.77 PLN</li>
+      <li class="currencyConverter__list--item">USD 4.40 PLN</li>
+      <li class="currencyConverter__list--item">JPY 0.03 PLN</li>
     </ul>
     <form class="form">
       <p>
         <label class="form__label">
-          Kwota do wymiany: <input class="form__input js-enteredValue" name="enteredValue" required type="number"
-            min="0.00" max="999999.99" step="0.01" placeholder="0.00">
+          <strong>Wymień</strong>&nbsp;<input class="form__input js-enteredValue" name="enteredValue" required
+            type="number" min="0.00" max="999999.99" step="0.01" placeholder="0.00">
         </label>
       </p>
       <label class="form__label">
-        Wybierz walutę:
+        <strong>Waluta</strong>
         <select class="form__option js-selectedCurrency" name="selectedCurrency">
           <option value="4.68" selected>EUR</option>
           <option value="4.77">CHF</option>
@@ -51,14 +51,15 @@
         </select>
       </label>
       <p>
-        <button class="form__resetButton js-resetButton" type="reset">Wyzeruj wszystko</button>
-        <button class="form__submitButton">Przelicz na PLN</button>
+        <button class="form__resetButton js-resetButton" type="reset">Reset</button>
+        <button class="form__submitButton">Przelicz</button>
       </p>
     </form>
 
     <footer class="footer">
       <p>
-        Kwota do zapłaty: <strong class="js-currencyConverter__value">0.00</strong><b> PLN</b>
+        <strong>Zapłać&nbsp;</strong><strong
+          class="js-currencyConverter__value currencyConverter__footer--fontColor">0.00</strong>&nbsp;<b>PLN</b>
       </p>
     </footer>
   </section>

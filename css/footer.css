@@ -1,6 +1,12 @@
 .footer {
   list-style: none;
-  margin-top: 3%;
-  padding: 1%;
-  border: 2px solid #bbb;
+  margin-top: 5px auto;
+  padding: 5px;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 9px #000;
+}
+
+.currencyConverter__footer--fontColor {
+  font-size: 22px;
+  color: #f00;
 }

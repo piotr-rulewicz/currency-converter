@@ -1,24 +1,32 @@
-.form {
-  margin-top: 3%;
-  border: 2px solid #bbb;
-}
-
 .form__input,
 .form__option {
-  border: 2px solid #bbb;
-  padding: 1%;
+  margin: 5px auto;
+  padding: 5px;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 9px #000;
+}
+
+.form__label {
+  display: block;
+  text-align: right;
+  width: 250px;
+  margin: 5px auto;
+  padding: 5px;
 }
 
 .form__submitButton,
 .form__resetButton {
+  width: 120px;
+  margin: 5px auto;
+  padding: 5px;
   background-color: #fff;
-  border: 2px solid #bbb;
-  padding: 1%;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 9px #000;
 }
 
 .form__submitButton:hover,
 .form__resetButton:hover {
-  background-color: #bbb;
-  border: 2px solid #fff;
   cursor: pointer;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px 9px #000;
 }

@@ -25,6 +25,11 @@ to given exchange rates.
 
 ![Screenshot 2, entered data and displayed result](img/3_screen-currency-converter_readme.jpg)
 
+## Update 2025-01-07
+
+Updated the content of the page, refactored HTML and CSS code.
+Checked the JavaScript code and tested the functionality.
+
 ## Demo
 
 <https://piotr-rulewicz.github.io/currency-converter/>

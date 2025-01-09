@@ -2,8 +2,8 @@
 
 ## Description
 
-A simple currency converter as continuation of learning HTML, CSS and JavaScript.
-The code includes: the form with a choice of options, normalize.css and the BEM convention.
+A simple currency converter as continuation of learning HTML, CSS and JavaScript.<br>
+The code includes: the form with a choice of options, normalize.css and the BEM convention.<br>
 In JavaScript code I used **arrow functions**.
 
 ## How it's working

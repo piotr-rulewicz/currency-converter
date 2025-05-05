@@ -1,6 +1,0 @@
-# Excluding files from Git
-.gitignore.txt
-.hintrc
-currency-converter.code-workspace
-
-###

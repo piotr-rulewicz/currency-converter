@@ -10,3 +10,9 @@
   font-size: 22px;
   color: #f00;
 }
+
+.currencyConverter__footer--author {
+  margin-top: 5px auto;
+  padding: 5px;
+  font-size: 12px;
+}

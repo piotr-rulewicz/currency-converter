@@ -2,8 +2,8 @@
 
 ## Description
 
-A simple currency converter as continuation of learning HTML, CSS and JavaScript.<br>
-The code includes: the form with a choice of options, normalize.css and the BEM convention.<br>
+A simple currency converter as continuation of learning HTML, CSS and JavaScript.
+The code includes: the form with a choice of options, normalize.css and the BEM convention.
 In JavaScript code I used **arrow functions**.
 
 ## How it's working
@@ -15,21 +15,12 @@ to given exchange rates.
 
 **The exchange rates used in the tool are exemplary. The calculator is for practice only**.
 
-## Screenshots
-
-**Screenshot 1:** default apperance, no data entered
-
-![Screenshot 1, default apperance, no data entered](img/2_screen-currency-converter_readme.jpg)
-
-**Screenshot 2:** entered data and displayed result
-
-![Screenshot 2, entered data and displayed result](img/3_screen-currency-converter_readme.jpg)
-
-## Update 2025-01-07
-
-Updated the content of the page, refactored HTML and CSS code.
-Checked the JavaScript code and tested the functionality.
-
 ## Demo
 
-<https://piotr-rulewicz.github.io/currency-converter/>
+GitHub repository 👉 [link to repository][def]
+
+[def]: https://piotr-rulewicz.github.io/currency-converter/
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](./LICENSE) file for more details.
